@@ -1,0 +1,1 @@
+mysql -u USUARIO -p BaseDeDatos < /Ruta/Del/Archivo/archivo.sql
