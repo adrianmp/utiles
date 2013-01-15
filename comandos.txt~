@@ -1,0 +1,2 @@
+comando : mysql -u USUARIO -p BaseDeDatos < /Ruta/Del/Archivo/archivo.sql
+fuente  : http://ovruni.wordpress.com/2009/11/07/importar-archivos-sql-con-mysql/

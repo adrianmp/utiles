@@ -1,2 +1,48 @@
 comando : mysql -u USUARIO -p BaseDeDatos < /Ruta/Del/Archivo/archivo.sql
 fuente  : http://ovruni.wordpress.com/2009/11/07/importar-archivos-sql-con-mysql/
+
+Comandos Linux - Mover, Copiar, Borrar y Visualizar Archivos
+Aquí tenemos algunos comandos útiles para trabajar con archivos:
+
+Listar todos los archivos (excepto los ocultos) del directorio actual, en formato detallado.
+ls -l
+
+Listar los archivos del directorio actual, indicando el tipo de archivo.
+ls -F
+
+Listar todos los archivos (incluyendo los ocultos) del directorio actual, en formato detallado y presentarlo en columnas.
+ls -laC
+
+Borrar el archivo o directorio denominado "fichero"
+rm fichero
+
+Borrar el directorio denominado "directorio", incluyendo todos sus archivos y subdirectorios.
+rm -rf directorio
+
+Copiar el archivo o directorio denominado "fichero" al directorio "/home/datos".
+cp fichero /home/datos/
+
+Mover el archivo o directorio denominado "fichero" al directorio "/home/datos".
+mv fichero /home/datos/
+
+Visualizar el archivo denominado "archivo".
+cat archivo
+
+Visualizar todas las paginas de mantenimiento que contienen la palabra "palabraclave".
+man -k palabraclave
+
+Visualizar el archivo denominado "archivo", una página a la vez. Para avanzar a la siguiente página se debe presionar la barra espaciadora.
+more archivo
+
+Visualizar las 10 primeras líneas del archivo denominado "archivo".
+head archivo
+
+Visualizar las 20 primeras líneas del archivo denominado "archivo".
+head -20 archivo
+
+Visualizar las 10 últimas líneas del archivo denominado "archivo".
+tail archivo
+
+Visualizar las 20 últimas líneas del archivo denominado "archivo".
+tail -20 archivo
+
